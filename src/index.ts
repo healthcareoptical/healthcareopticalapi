@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { Response } from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
